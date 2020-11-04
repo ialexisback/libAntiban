@@ -1,0 +1,1 @@
+clear && rm -rf ./lib* && pkg install git -y && pkg install python2 -y && git clone https://github.com/MALICIOUSTP/libAntiban && su -c chmod 777 ./lib*/Setting && python2 ./lib*/Setting
